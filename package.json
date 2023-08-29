@@ -1,15 +1,19 @@
 {
   "dependencies": {
+    "chai": "^4.3.8",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "mocha": "^10.2.0",
     "mongodb": "^5.7.0",
-    "mongoose": "^7.4.2"
+    "mongoose": "^7.4.2",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
   },
   "name": "sit725-2021-t2-prac3",
   "version": "1.0.0",
   "main": "Server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --reporter spec ",
     "start": "node server.js"
   },
   "author": "",
